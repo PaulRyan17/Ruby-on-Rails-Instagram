@@ -1,9 +1,7 @@
 require "instagram"
 
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
 class LoginController < ApplicationController
-  CALLBACK_URL = "http://localhost:8000/login/redirectToProfile"
+  CALLBACK_URL = "https://young-earth-85360.herokuapp.com/login/redirectToProfile"
   Instagram.configure do |config|
     config.client_id = "0fd6dea733ba4cc286b396c9a3fa8b40"
     config.client_secret = "ab4d44aa59e146148720913f94fe39c9"

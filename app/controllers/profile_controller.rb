@@ -1,8 +1,6 @@
 require 'instagram'
 require 'openssl'
 
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
 class ProfileController < ApplicationController
   def home
     #if user is authenticated
