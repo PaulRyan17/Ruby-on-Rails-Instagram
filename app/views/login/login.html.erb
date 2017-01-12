@@ -1,0 +1,16 @@
+<% if flash[:notice] %>
+   <script>
+    alert("Please authenticate first");
+   </script>
+ <% end %>
+<div class="jumbotron">
+  <div class="container">
+    <span class="glyphicon glyphicon-list-alt"></span>
+    <h2 class = "login-title">Instagram Login</h2>
+    <a href="/login/validatebyinstagram">
+      <button class="btn btn-default full-width validate-instagram-button"><span class="glyphicon glyphicon-ok"></span></button>
+    </a>
+      <div id = "test"></div>
+  </div>
+  </div>
+</div>

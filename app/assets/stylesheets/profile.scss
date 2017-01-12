@@ -1,0 +1,33 @@
+// Place all the styles related to the Profile controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.verticalLine {
+  border: thick solid #4099FF;
+  border-width: 2px;
+}
+
+.tab-btn-group{
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+    margin-left: 38%;
+}
+
+.navbar-header{
+  width:100%;
+}
+
+.navbar-nav.navbar-right:last-child {
+    margin-right: -1px!important;
+}
