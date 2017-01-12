@@ -31,3 +31,7 @@
 .navbar-nav.navbar-right:last-child {
     margin-right: -1px!important;
 }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+  overflow: hidden;
+}
