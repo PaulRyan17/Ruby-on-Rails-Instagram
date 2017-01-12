@@ -11,11 +11,11 @@ class ProfileController < ApplicationController
       @user = client.user
       @images = getUsersImages
 
-      render "profile/home"
+      render "/profile/home"
       return
     end
     flash[:notice] = "You are not authenticated"
-    redirect_to "login/login"
+    redirect_to "/login/login"
   end
 
   def getUsersImages
